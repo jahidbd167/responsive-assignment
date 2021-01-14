@@ -1,18 +1,30 @@
-.panda-card{
-    border: 0;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap');
+h1{
+    font-size:70px;
 }
-.panda-card-footer{
-    background-color: white;
-    border: 0;
+h2{
+    font-size:50px;
+    font-family: 'Bebas Neue', cursive;
+    color:rgb(17, 24, 44);
 }
-.categories{
-    background-color: whitesmoke;
-    border: 0;
+.header_display_banner h1{
+    font-family: 'Bebas Neue', cursive;
 }
-.categories img{
-    width: 100px;
+.formal_shoe_section{
+    background:#ffedf1;
 }
-.panda-slid .carousel-item{
-    background-color: #fceae8;
-    border-radius: 1em;
+.cas_card.card{
+    border:none;
+     box-shadow: 0 22.3px 17.9px rgba(0, 0, 0, 0.072);
+     background:white;
+}
+.cas_card.card .card-footer{
+    border:none;
+}
+.cas_card.card .cas-img-top{
+    width:220px;
+    height:220px;
+    object-fit: cover;
+    margin:auto;
+    display:inherit;
 }
